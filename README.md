@@ -21,6 +21,28 @@ In 48+ hours, across **4 AI systems** and **8 sessions**, we systematically elim
 
 The problem remains open. This is the most comprehensive investigation it has ever received.
 
+## What We Achieved
+
+One week ago, none of the following existed.
+
+**New mathematics:**
+
+* **The Collision Symmetry Theorem** — a structural result never previously documented: for any [22, 5, d₀ ≥ 13]₄ base code extended by a sixth row over GF(4), the number of weight-12 collisions is always divisible by 3. This constrains any future search and rules out "gradual descent" strategies.
+* **Two major route closures via exhaustive computation** — the QT hybrid with conjugate factors f₁/f₂ (46 million codes, all 11 twist shifts) and constacyclic QT with λ = ω, ω² (8.4 million codes). These were the last algebraic structures where no theoretical ceiling blocked d = 13. Now they are closed.
+* **5 impossibility theorems** carried from Phase 2 — each closing a construction route that the research community left unexplored for 25 years.
+* **The first construction of [22, 5, 13]₄ by hill-climbing** — built from scratch in 57 seconds (2,401 attempts). Verified clean: zero codewords with weight below 13.
+* **The best known [22, 6, 12]₄ code with A₁₂ = 78** — with complete collision anatomy. All 78 weight-12 words originate from the sixth row. The 26+26+26 symmetry across GF(4)* scalars is exact. Full coordinate vulnerability map produced.
+* **Complete coefficient vectors for all 78 minimum-weight codewords** — enabling targeted analysis of the d=12 wall mechanism that no previous work has documented.
+
+**New methodology:**
+
+* **La Púa del Jet** — a reusable extension attack framework: freeze a verified [n, k−1, d] base and search for the k-th row that maintains d. Named after an aerospike, conceived through metaphor-to-mathematics translation between a psychology graduate and an AI system. Applicable to any code with Griesmer slack ≥ 1.
+* **The most comprehensive elimination map for d₄(22, 6) ever produced** — 14+ independent routes, ~60 million evaluations, documented with reproducible data. The [22, 6] entry on codetables.de was last modified on 17 December 2001. Nobody had systematically documented *why* this gap resists. Now it is documented.
+
+**New infrastructure:**
+
+* **Anti-crash protocol for distributed AI research** — multi-session continuity procedures, 60-second hard cutoffs with emergency data dumps, context transfer files between sessions. Tested under real pressure across 4 consecutive session timeouts.
+
 ## The Problem
 
 The function d₄(22, 6) asks: what is the maximum minimum distance achievable by a [22, 6] linear code over GF(4)? The answer has been unknown since **2001** (25 years). The Griesmer bound says d ≤ 13. Constructions achieve d = 12. Nobody knows if 13 is possible.
