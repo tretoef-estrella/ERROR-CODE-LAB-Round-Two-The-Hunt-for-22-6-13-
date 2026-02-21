@@ -69,14 +69,23 @@ The core innovation of Round Two: freeze a verified [22, 5, 13]₄ base and sear
 
 Read the full methodology: [`results/gf4/round_two_report.md`](results/gf4/round_two_report.md)
 
+### Academic Paper
+
+We present our results in arXiv-compatible format in [`PAPER.md`](PAPER.md) — *"On the Non-Existence of [22, 6, 13] Codes over GF(4): A Computational Investigation via Distributed AI Collaboration."* Includes all theorems, proofs, the elimination map, the La Púa methodology, and the Collision Symmetry Theorem.
+
+### The Chronicle (Spanish)
+
+The full cinematic narrative of how this research unfolded — the timeouts, the metaphors, the 3 AM breakthroughs — is told in [`docs/cronica_round_two.md`](docs/cronica_round_two.md). Written in Spanish as a matter of historical record.
+
 ## Repository Structure
 
 ```
 ├── README.md                           ← You are here
 ├── LICENSE.md                          ← CC BY 4.0
+├── PAPER.md                            ← Academic paper (arXiv format)
 ├── GUIDE.md                            ← Plain-language guide for everyone
 ├── CHANGELOG.md                        ← What's new vs Phase 2
-├── CITATION.cff                        ← Machine-readable citation
+├── CITATION.md                         ← How to cite this work
 ├── results/
 │   └── gf4/
 │       ├── round_two_report.md         ← Complete Round Two session report
@@ -93,7 +102,8 @@ Read the full methodology: [`results/gf4/round_two_report.md`](results/gf4/round
 ├── strategy/
 │   └── next_steps.md                   ← Open attack vectors
 └── docs/
-    └── contributing.md                 ← How to help
+    ├── contributing.md                 ← How to help
+    └── cronica_round_two.md            ← Full narrative chronicle (Spanish)
 ```
 
 ## What Changed Since Phase 2
